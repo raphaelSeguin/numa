@@ -1,0 +1,7 @@
+services: 
+  db:
+    environment: 
+      - POSTGRES_PASSWORD=popopopostgres
+    ports: 
+      - 5432:5432
+    build: .
