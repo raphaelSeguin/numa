@@ -1,19 +1,17 @@
 # API
 
-todo 
-
-create user
-input validation (zod ?)
-ouput format
-login
-logout
-session / JWT
-password hash
+## todo
+- create user
+- input validation (zod ?)
+- ouput format
+- login
+- logout
+- session / JWT
+- password hash 
 
 roles
 classes entités
 use-cases
-
 
 
 # Prisma query builder
