@@ -4,10 +4,13 @@
 - create user
 - input validation (zod ?)
 - ouput format
-- login
+- login OK~
 - logout
 - session / JWT
-- password hash 
+- password hash OK
+
+? mettre les tests à côté des fichiers avec des .spec.ts
+
 
 roles
 classes entités

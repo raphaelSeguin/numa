@@ -1,10 +1,11 @@
 interface IUser {
-  email: string;
+  login: string;
+  password: string;
 }
 
 class User {
   constructor(
-    private readonly email: string,
+    private readonly login: string,
     private readonly password: string
   ) {}
 }
