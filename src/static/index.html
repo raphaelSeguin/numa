@@ -12,11 +12,11 @@
         <div class="" form-wrapper>
           <div class="form-section">
             <label for="login">login</label>
-            <input type="text" name="login" id="login-input" />
+            <input type="text" name="login" id="login-input" autocomplete="numa-login"/>
           </div>
           <div class="form-section">
             <label for="password">password</label>
-            <input type="password" name="password" id="password-input" />
+            <input type="password" name="password" id="password-input" autocomplete="numa-password"/>
           </div>
           <div class="form-section"><input type="submit" value="submit" /></div>
         </div>
@@ -40,7 +40,9 @@
             password,
           }),
         });
-        console.log(await response.json());
+        if (response.status === 200) {
+          location.assign('welcome')
+        }
       });
     </script>
     <style>

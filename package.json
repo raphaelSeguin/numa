@@ -6,7 +6,7 @@
     "start": "tsc && node dist/index.js",
     "build": "tsc",
     "watch": "ts-node-dev --respawn src/index.ts",
-    "test": "npx ts-node src/index.spec.ts",
+    "test": "npx ts-node src/tests/index.spec.ts",
     "test:watch": "NODE_ENV=test ts-node-dev --respawn src/tests/index.spec.ts"
   },
   "author": "",

@@ -1,5 +1,4 @@
 import { SignJWT, jwtVerify } from "jose";
-import { createSecretKey } from "crypto";
 import { jwtConfig } from "../config";
 
 const key = new TextEncoder().encode(jwtConfig.secretKey);
